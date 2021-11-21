@@ -29,9 +29,13 @@
 # else:
 #   print("Congrats successfully completed")
 
-x = int(input("enter the marks "))
+# x = int(input("enter the marks "))
 
-if x >= 35:
-  print("Passed")
-else:
-  pass
+# if x >= 35:
+#   print("Passed")
+# else:
+#   pass
+
+# x =10 
+# del x
+# print(x)
