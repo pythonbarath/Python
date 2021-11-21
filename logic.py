@@ -19,12 +19,12 @@
 #     print(i,j)
 
 
-cart = [10,20,30,40,50,800]
+# cart = [10,20,30,40,50,800]
 
-for i in cart:
-  if i > 500:
-    print("Insurance Required ", i)
-    break
-  print("Proccessed Item",i)
-else:
-  print("Congrats successfully completed")
+# for i in cart:
+#   if i > 500:
+#     print("Insurance Required ", i)
+#     break
+#   print("Proccessed Item",i)
+# else:
+#   print("Congrats successfully completed")
