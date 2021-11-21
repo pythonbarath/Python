@@ -28,3 +28,10 @@
 #   print("Proccessed Item",i)
 # else:
 #   print("Congrats successfully completed")
+
+x = int(input("enter the marks "))
+
+if x >= 35:
+  print("Passed")
+else:
+  pass
