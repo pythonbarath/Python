@@ -39,3 +39,24 @@
 # x =10 
 # del x
 # print(x)
+
+# n = int(input("Enter the Number: "))
+
+# if n <=1:
+#   print("It is Not a Prime Number")
+
+# else:
+#   is_prime = True
+#   for i in range(2,n):
+#     if n%i== 0:
+#       is_prime = False
+#       break
+#   if is_prime == True:
+#         print("It Is  Prime Number")
+#   else:
+#         print("It Is Not Prime Number")
+
+   
+
+
+  
