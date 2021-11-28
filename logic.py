@@ -73,14 +73,18 @@
 #   n1 = n1+1
 
 
-s = input("Enter the String")
-i = 0
-for x in s:
-  print("The char Present at +ve index:{} and at -ve index : {} is {}".format(i,i-len(s),x))
-  i =i+1
+# s = input("Enter the String")
+# i = 0
+# for x in s:
+#   print("The char Present at +ve index:{} and at -ve index : {} is {}".format(i,i-len(s),x))
+#   i =i+1
   
 
-
+s = 'abcdefghij'
+# print(s[0])
+# print(s[0:9:2])
+# print(s[3:7:-1])
+print(s[0:-10:1])
    
 
 
