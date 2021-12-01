@@ -1,6 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser,BaseUserManager
 
+
+#Customising USER Model To Email Login
+
 class MyAccountManager(BaseUserManager):
   def create_user(self,first_name,last_name,username,email,password=None):
     if not email:
