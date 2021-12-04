@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\practise python\Ecommerce\env"
+VIRTUAL_ENV="D:\DEV-RATNAKUMAR\greatkart-django-6d2fd82b09ff148135487d09bcf1503ee2eb98b8\ECOM\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

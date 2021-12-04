@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\practise python\Ecommerce\env
+set VIRTUAL_ENV=D:\DEV-RATNAKUMAR\greatkart-django-6d2fd82b09ff148135487d09bcf1503ee2eb98b8\ECOM\env
 
 if not defined PROMPT set PROMPT=$P$G
 

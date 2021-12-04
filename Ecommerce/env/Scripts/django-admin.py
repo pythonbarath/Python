@@ -1,4 +1,4 @@
-#!d:\practise python\ecommerce\env\scripts\python.exe
+#!d:\dev-ratnakumar\greatkart-django-6d2fd82b09ff148135487d09bcf1503ee2eb98b8\ecom\env\scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
