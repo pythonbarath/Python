@@ -11,10 +11,10 @@ class Category(models.Model):
 
     class Meta:
         verbose_name = 'category'
-        verbose_name_plural = 'categories'
+        verbose_name_plural = 'categories' #change in backend naming format
 
     def get_url(self):
-            return reverse('products_by_category', args=[self.slug])
+            return reverse('products_by_category', args=[self.slug]) #To get  the category link
 
     def __str__(self):
         return self.category_name
