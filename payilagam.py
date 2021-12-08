@@ -168,19 +168,85 @@
 
 # a+bj
 
-no = 5+10j
-print((no))
-print(type(no))
+# no = 5+10j
+# print((no))
+# print(type(no))
 
-no2 = 5+10j
-total = no+no2
-print((total))
-print(type(total))
+# no2 = 5+10j
+# total = no+no2
+# print((total))
+# print(type(total))
 
-print(no2.real)
-print(no.imag)
+# print(no2.real)
+# print(no.imag)
 
 
+#Boolean #Comparison 
+
+# no1 = 10
+# no2 = 20
+# print(no1>no2)
+# print(no1<no2)
+# print(no1==no2)
+# print(no1!=no2)
+
+# a = True
+# print(a)
+# print(type(a))
+
+# print(True+True)
+# print(True+False)
+# print(False+False)
+
+# no1 = "two"
+# no2 = "three"
+# print(no1>no2)
+# print(no1<no2)
+# print(no1==no2)
+# print(no1!=no2)
+
+
+#String
+
+# name = "Barath"
+# print(name)
+# print(id(name))
+
+# name = 'Barath'
+# print(name)
+# print(id(name))
+
+# name = """ Barath's address is chennai ... he said "hi" """
+# print(name)
+# name = '''Barath's address is chennai ... he said "hi" '''
+# print(name)
+
+# name = '''Kolathur
+#           chennai
+#         anna nagar
+#         tamilnadu '''
+# print(name)
+
+
+# name = "barath"
+# city = 'chennai'
+# print(name+city)
+# print(name,city)  # , will add space  
+
+
+# name = "barath"
+# pin = 600028
+# print(name,pin)
+# print(name+pin)   # + BOTH SHOULD BE STRING  
+
+
+#sTRING sLICING
+ 
+# name = "barath"
+# print(name[0])  #0 is the index
+# print(name[1])
+# print(name[2])
+# print(name[3])
 
 
 
