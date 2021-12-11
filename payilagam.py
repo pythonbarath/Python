@@ -263,7 +263,7 @@
 # a = "HAD LEARNED BASIC KNOWLEDGE OF PYTHON AND ITS FRAMEWORK LIKE DJANGO,FLASK FOR ADVANCEMENT OF SKILLS"
 # print(a.title())
 
-name = 'abcdefghijklmnopqrstuvwxyz'
+# name = 'abcdefghijklmnopqrstuvwxyz'
        #01234567890123456789012345
 
 # print(name[0:5])
@@ -282,6 +282,43 @@ name = 'abcdefghijklmnopqrstuvwxyz'
 # print(name[26:-1:4])
 
 
-name= "barathkumar"
+name= "123456789"
+# name2 = "123456789"
 
-print(len(name))
+# print(len(name))  #len function doenot count Zero
+# val = len(name)
+# # print(name[-val:val])
+
+# print(name[val:0:-1]) #to print in reverse #wont work
+
+# print(name[(val-1):0:-1]) #wont work
+
+# print(name[::])
+# print(name[::-1]) #to print in reverse
+# print(name[0:-5])
+# print(name[10:0:-1])
+# print(name[::2])
+
+
+#check whether it is palindrome or not?
+
+# name = "sun"
+
+# print(name)
+
+# name2 = name[::-1]
+# print(name2)
+# print(name==name2)
+
+# print(name*3)  
+# print(name+3) #Error
+
+
+#TYPE Casting
+
+# no = 99.45  #chaning float to int is type casting
+
+# print(int(no))
+
+
+T
