@@ -243,10 +243,45 @@
 #sTRING sLICING
  
 # name = "barath"
-# print(name[0])  #0 is the index
+# print(name[0]) #0 is the index  stars 0 and negative index stat from -1
 # print(name[1])
 # print(name[2])
 # print(name[3])
+# print(name[-1])
+# print(name[-2])
+
+#Task print last letter and first letter
+
+# name = "barath"
+#        #012345
+# print(name[0:3])
+# print(name[3:])
+# print(name[3:5])
+# print(name[8:]) #empty 
+# print(name[:5])
+
+# a = "HAD LEARNED BASIC KNOWLEDGE OF PYTHON AND ITS FRAMEWORK LIKE DJANGO,FLASK FOR ADVANCEMENT OF SKILLS"
+# print(a.title())
+
+name = 'abcdefghijklmnopqrstuvwxyz'
+       #01234567890123456789012345
+
+# print(name[0:5])
+# print(name[-1:]) #left to right 
+# print(name[5:10])
+# print(name[-5:-1]) #Step operator 
+
+#Slicing [::]
+
+# print(name[::])
+# print(name[1:10])
+# print(name[1:10:2]) #positive index -1 
+# print(name[10:2])  #empty set - only left to right 
+# print(name[10:2:-1])  #negative index +1 
+# print(name[-26:26])
+# print(name[26:-1:4])
 
 
+name= "barathkumar"
 
+print(len(name))
