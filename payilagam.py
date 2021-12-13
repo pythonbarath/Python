@@ -282,7 +282,7 @@
 # print(name[26:-1:4])
 
 
-name= "123456789"
+# name= "123456789"
 # name2 = "123456789"
 
 # print(len(name))  #len function doenot count Zero
@@ -321,4 +321,33 @@ name= "123456789"
 # print(int(no))
 
 
-T
+#can we able to change name to int? 
+#NOOOOOO!!!!
+
+# name = "barath"
+# print(int(name))  #VALUEERROR 
+
+# print(float(10))
+# print(float(True))
+# print(float(False))
+
+# 
+# door = "10"
+
+# print(door)
+# print(type(door))
+# print(int(door))
+# print(type(int(door)))
+
+
+
+#COMPLEX 
+
+print(complex(10))
+print(complex(5.4))
+print(complex(True))   #True part
+print(complex(False)) #imaginary
+print(complex("12"))  
+print(complex("12.7"))
+
+
