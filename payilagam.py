@@ -477,17 +477,111 @@
 #        print("Odd No ")
 
 
-values = [10,20,30,40,15]
+# values = [10,20,30,40,15]
 
-for x in values:
-       if x%2==0:
+# for x in values:
+#        if x%2==0:
 
-              print("Even Number ")              
-       else:
-              print("Odd No ")
+#               print("Even Number ")              
+#        else:
+#               print("Odd No ")
 
 # No = int(input("Enter the Value ")) 
 # if No%2==0:
 #        print("Even Number ")
 # else:
 #        print("Odd No ")
+
+
+#Operators
+
+# Relational Operator :
+
+# > >= < <= 
+
+# Equality Operator
+
+# == !=
+
+
+# name1 = 'kannan'
+# name2 = 'kumara'   #Lexicographical order -dicitonary order  
+#                    #  a is smaller than B .B is smaller than C       
+# print(name1>name2)
+# print(name2>name1)
+# print(name1==name2)
+# print(name1!=name2)
+
+
+#Escape Character 
+
+# print("Hi Hello")
+# print("Hi \t Hello") #Tab Space
+# print("Hi\n Hello ")  #New Line
+# print('I\'m fine ')
+# print('''I'm fine''')
+
+
+#Constants 
+
+#USE CAPITAL LETTER
+
+# MAX= 3
+
+
+#Assignment operator
+
+#+= -= *= /= //= 
+# %= **= 
+
+
+# no = 10
+# no = no+10  
+# print(no)
+
+# # no+=1  ==>  no = no+1 
+
+# no *= 2
+# print(no)
+
+# no **= 2
+# print(no)
+
+
+#Ternary Operator  (Conditional Operator)
+
+# a=1,b=20,c=30   #ERROR OCCUR WONT SUPPORT MULTIPLE INPUT
+# print(a)
+
+# a,b,c,d = 10,20,30,40
+
+# print(a,b,c,d)
+# print(a)
+
+# a,b,c,d = 10,20,30,40
+
+# e = 50 if a<b else 60   #Ternary Operator consists of multiple opeartons
+# print(e)
+
+
+#MEMBERSHIP OPERATOR 
+
+#in, not in 
+
+# a = 'Today is friday'
+
+# print('o' in a)  #checks o is available in sentence or not 
+# print('f' not in a) 
+# print('z' in a) 
+# print('Today' in a) 
+
+#Operator Chaining
+
+# print(100<200)
+# print(200<300)
+# print(100<500<300)
+
+#Bitwise OPerator 
+
+# & | ^ ~ >> <<
+
