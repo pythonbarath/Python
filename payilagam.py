@@ -1,3 +1,5 @@
+#Learn Python in Most  Simplest way & Quick Way 
+
 # print("hi")
 # print('hi')
 
@@ -343,11 +345,149 @@
 
 #COMPLEX 
 
-print(complex(10))
-print(complex(5.4))
-print(complex(True))   #True part
-print(complex(False)) #imaginary
-print(complex("12"))  
-print(complex("12.7"))
+# print(complex(10))
+# print(complex(5.4))
+# print(complex(True))   #True part
+# print(complex(False)) #imaginary
+# print(complex("12"))  
+# print(complex("12.7"))
+# print(complex(10,20))
+# print(complex(True,False))
+
+#bool  True False  
+# print(bool(0))
+# print(bool(1))
+# print(bool(1.5))  #Complete Zero False
+# print(bool(0.3))
+# print(bool(0.0))
+# print(bool(5+4j))
+# print(bool(0+2j))
+# print(bool(0+0j))
+# print(bool("True"))
+# print(bool("False"))  #String always True
+# print(bool(""))  #Empty string with no sapce False 
+# print(bool(" "))  #Space False
+
+#STR 
+# print(str(10))  
+# # print("Price is "+10)  
+# print(str("Price is "+str(10))) 
+# print(str("Price is "+"10"))  
+
+# a= str(34.5)
+# print(type(a))
+
+# print(str("True"))
+# print(str("False")) 
+
+#14 DATA TYPES- 5 FUNDAMENTAL  DATA TYPES  
+
+#ALL Fundamental Data TypeS ARE IMMUTABLE 
+#integers, floats, booleans and strings. -fundamental data Type
+
+#immutable -not changabale
 
 
+# immutable example 
+# no =10 
+
+# no2 =10  #it will show the same address 
+
+# print(id(no))
+# print(id(no2))
+# no2=20 
+
+# print(id(no2))   
+
+# once we change the value of identifier belonging to fundamental
+# datatypes it wont get changed.. a new address will be created 
+
+#IS  will check whterh the both identifier has same address
+
+# no1 =10
+# no2 =10
+
+# print(no1 is no2)
+
+# no1 =10
+# print(id(no1))
+# no2 =10.0
+# print(id(no2))
+
+# print(no1 == no2) #Equality operator
+# print(no1 is no2) #Identity Operator
+# print(no1 is not no2)
+
+#BYTES 
+
+# values = [90,80,30,40,400] #Bytes value should be below 256 
+# values = [10,20,30,40]
+# print(values)
+# values[0]=20   #List is mutable but once converted to byte cannot mutable
+# print(values)
+# values = bytes(values)
+# print(values)
+# print(type(values))  #bytes value cannot be seen 
+#                      #to view value use index        
+# print(values[0])
+# print(values[1])
+# print(values[2])
+# print(values[3])
+
+# print(values[-1])
+# print(values[-2])
+
+
+# to view all values we use loops:
+
+# for x in values:
+#        print(x)
+
+#wecannot change the value
+
+# values[0]=92  #we will get error 
+
+#how to get total value in the list?
+
+# values = [10,20,30,40]
+# print(values)
+
+# total = 0
+# for x in values:
+#        print(x)
+#        total = total +x 
+#        print("total + x =  ",total)
+
+# print(total)
+
+
+
+#ODD Even
+
+# No = int(input("Enter the Value "))  #change input to int or it will be string 
+# print(No)
+# print(type(No))
+
+# print(int(No)+5)
+
+# No = int(input("Enter the Value ")) 
+# if No%2==0:
+#        print("Even Number ")
+# else:
+#        print("Odd No ")
+
+
+values = [10,20,30,40,15]
+
+for x in values:
+       if x%2==0:
+
+              print("Even Number ")              
+       else:
+              print("Odd No ")
+
+# No = int(input("Enter the Value ")) 
+# if No%2==0:
+#        print("Even Number ")
+# else:
+#        print("Odd No ")
