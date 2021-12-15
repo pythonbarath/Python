@@ -581,7 +581,29 @@
 # print(200<300)
 # print(100<500<300)
 
-#Bitwise OPerator 
+#Bitwise OPerator  #No use in normal programming only used in advanced data science topics
 
+# runtime : 4:30 
 # & | ^ ~ >> <<
+
+# & - AND na multiple pannanum
+
+# | or symbol should ADD the value 
+
+# ^ XOR  SAME VALUE RESULT 0 - DIFF VALUE NA 1 
+
+# print(4&5)
+# print(4|5)
+# print(4^5)  
+
+# print(bin(4)) #0100
+# print(bin(5)) #0101
+# print(bin(10)) #1010
+
+# ~1010 => -(1010+1) => -(1011)=> 2**3+2**2+2**1+2**0=> 8+0+2+1=-(11)
+
+# print(~no)
+
+# print(10<<2)  
+
 
