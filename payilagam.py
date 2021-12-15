@@ -607,3 +607,86 @@
 # print(10<<2)  
 
 
+
+
+
+#Logical Operators
+
+#AND OR NOT  
+
+# print( 5 and 5)  #low value will be considered 
+
+# print( 5 and 3)
+
+# print( 5 or 3)  #first value will be taken or  high value 
+# print( 4 or 6)
+
+
+
+# result = True
+# result2 = not result
+
+# print(result)
+# print(result2)
+
+
+#MODULES
+
+#PYTHON FILE - MODULES
+#INSIDE MODULE IT HAS FUNCTIONS,VARIABLE ETC  
+
+
+# print('hi') #Print is a module  
+
+# we can write a Module
+
+#For example:
+
+#first write function and call it 
+
+#FINDING BIGGEST VALUE 
+
+# def big(no1,no2): #function definition 
+#        if no1>no2:
+#               print(no1, "is greater")
+#        else:
+#               print(no2, "is greater")
+       
+
+# no1 = int(input("Enter no1 : "))
+# no2 = int(input("Enter no1 : "))
+# big(no1,no2)  #Function calling  #no1,no2 are argument 
+
+#the big (no1,no2) value alone goes to def big() so we can also
+#write it as def big(a,b)
+
+#PASS 
+
+# def big(no1,no2): 
+#        pass          #No OUTPUT WILL COME.. IT IS USED TO DEFINE LATER OR LOGIC NOT DISCUSSED
+       
+
+# no1 = int(input("Enter no1 : "))
+# no2 = int(input("Enter no1 : "))
+# big(no1,no2)
+
+
+#How to use other created Modules  
+
+# the  Above finding the biggest value can be created as module 
+#by saving it in a seperate file 
+
+
+#format1 
+
+# import one 
+
+# one.big
+
+#format2
+# import one 
+# no1 = int(input("Enter no1 : "))
+# no2 = int(input("Enter no1 : "))
+# one.big(no1,no2)  
+
+#the calling will pass only the value of the argument 
