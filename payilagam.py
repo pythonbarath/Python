@@ -700,10 +700,27 @@
 
 #MATH Module
 
-import math
-print(math.sqrt(100))
-print(math.pi)
-print(math.ceil(5.3))
-print(math.floor(5.3))
+# import math
+# print(math.sqrt(100))
+# print(math.pi)
+# print(math.ceil(5.3))
+# print(math.floor(5.3))
+
+# from  math import *
+# print(sqrt(100))
+# print(pi)
+# print(ceil(5.3))
+# print(floor(5.3))
 
 
+# eval()
+#it is used to cobvet to math function
+
+a = input("enter the value  ")  #always stoer ad string
+print('first',a)
+print(a)
+print(type(a))
+a = eval(a)
+print('second',a)
+print(a)
+print(type(a))
