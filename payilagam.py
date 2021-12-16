@@ -716,11 +716,55 @@
 # eval()
 #it is used to cobvet to math function
 
-a = input("enter the value  ")  #always stoer ad string
-print('first',a)
-print(a)
-print(type(a))
-a = eval(a)
-print('second',a)
-print(a)
-print(type(a))
+# a = input("enter the value  ")  #always stoer ad string
+# print('first',a)
+# print(a)
+# print(type(a))
+# a = eval(a)
+# print('second',a)
+# print(a)
+# print(type(a))
+
+#Command line arguments
+
+# from sys import argv 
+
+# print(argv[0])
+# print(argv[1])
+# print(argv[2])
+# print(argv[3])
+# print(argv)
+# print(type(argv))
+
+# print(int(argv[1])+int(argv[2]))
+# print(int(argv[1])*int(argv[2]))
+# python payilagam.py 2 4 5 6 7
+
+
+#in java 
+
+# no1=10,no2=10
+
+
+#in python
+# no1,no2=10,20
+
+# no1,no2,no3,no4,no5=10,20,30,40,50
+# print(no1,no2,no3,no4,no5, sep=":")
+# print(no1,no2,no3,no4,no5, end="/")
+
+
+# use of END
+
+# print("Barath")
+# print("chennai")
+
+# print("Barath", end=" ")
+# print("chennai")
+
+# print("Barath", end="/")
+# print("chennai")
+
+
+#FORMATTED STRINGS 
+
