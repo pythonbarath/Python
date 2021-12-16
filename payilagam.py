@@ -690,3 +690,20 @@
 # one.big(no1,no2)  
 
 #the calling will pass only the value of the argument 
+
+
+#Build in Modules
+
+
+#CMD -> PYTHON -> help('modules')
+#clear()
+
+#MATH Module
+
+import math
+print(math.sqrt(100))
+print(math.pi)
+print(math.ceil(5.3))
+print(math.floor(5.3))
+
+
