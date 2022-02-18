@@ -22,17 +22,16 @@
                   <figure class="itemside align-items-center">
                     <div class="aside">
                       <img
-                        src="{% static './images/items/11.jpg' %}"
+                        src="{{ single_product.images.url }}"
                         class="img-sm"
                       />
                     </div>
                     <figcaption class="info">
                       <a href="#" class="title text-dark"
-                        >Camera Canon EOS M50 Kit</a
+                        >{{ single_product.product_name }}</a
                       >
                       <p class="text-muted small">
-                        Matrix: 25 Mpx <br />
-                        Brand: Canon
+                        {{ single_product.description }}
                       </p>
                     </figcaption>
                   </figure>
@@ -67,8 +66,10 @@
                 </td>
                 <td>
                   <div class="price-wrap">
-                    <var class="price">₹1156.00</var>
-                    <small class="text-muted"> ₹315.20 each </small>
+                    <var class="price">₹ {{single_product.price}}</var>
+                    <small class="text-muted">
+                      ₹ {{single_product.price}}each
+                    </small>
                   </div>
                   <!-- price-wrap .// -->
                 </td>
